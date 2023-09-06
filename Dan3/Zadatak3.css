@@ -1,0 +1,85 @@
+/* Style the body and center the page content */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/night.jpg);
+    cursor: crosshair;
+}
+
+/* Style the header */
+/* header {
+    background-image: url(images/night.jpg);
+    padding: 20px;
+    text-align: center;
+} */
+
+/* Style the h1 in the header */
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+/* Style the form container */
+div > div {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the "Add Items" section */
+h2 {
+    font-size: 24px;
+}
+
+/* Style the input and submit button in the form */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;    
+}
+
+/* Style the list and list items */
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fff;
+}
+
+/* Style the "X" button inside list items */
+.delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+h1{
+    color: red;
+}
+h2{
+    color: aqua;
+}
+.Class{
+    color: blue;
+    background-color: aliceblue;
+    display: inline-block;
+    padding: 5px;
+}
+li:last-child{
+    background-color: bisque;
+    display: inline-block;
+}
+#Rain{
+    width: 200px;
+    height: 200px;
+}
+body{
+    background-color: black;
+    color: whitesmoke;
+}
